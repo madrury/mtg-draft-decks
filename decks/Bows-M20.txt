@@ -2,7 +2,6 @@ Mainboard
  
 1 Bladebrand
 4 Heart-Piercer Bow
-1 Vial of Dragonfire
 2 Blood Burglar
 1 Bone Splinters
 2 Renowned Weaponsmith
@@ -16,3 +15,4 @@ Mainboard
 1 Murder
 1 Dungeon Geists
 1 Agonizing Syphon
+1 Meteor Golem
