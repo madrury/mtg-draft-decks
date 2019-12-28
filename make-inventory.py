@@ -36,6 +36,7 @@ for (name, st), grp in groupby(sorted(cards, key=lambda x : x[0]), key=lambda x:
 rich_manifest = []
 for name, st, count in sorted(manifest, key=lambda x: (x[1], x[0])):
     uri = CARD_NAMES_API + urllib.parse.urlencode({'fuzzy': name, 'set': st}) 
+    sys.stderr.write(f"Requeting: {uri}\n")
     r = requests.get(uri)
     color_identity = ''.join(r.json()['color_identity'])
     img_uri = r.json()['image_uris']['small']
